@@ -1,0 +1,74 @@
+.Mobile_Nav {
+  display: none;
+}
+.open_nav_class i {
+  display: none;
+}
+a {
+  text-decoration: initial;
+  color: initial;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  /* RESPONSIVE NAV ul */
+  /* RESPONSIVE NAV ul */
+  /* RESPONSIVE NAV ul */
+  /* RESPONSIVE NAV ul */
+  /* RESPONSIVE NAV ul */
+
+  .open_nav_class i {
+    display: flex;
+  }
+  a {
+    text-decoration: initial;
+    color: initial;
+  }
+  .Mobile_Nav {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    z-index: 40;
+    width: 100%;
+
+    display: none;
+  }
+  .Mobile_Nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 0px;
+    width: 100%;
+  }
+  .Mobile_Nav div a h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+  }
+  .Mobile_Nav div a {
+    /* background-color: orangered; */
+    width: fit-content;
+  }
+  .Mobile_Nav div a:nth-of-type(5) {
+    /* border-bottom: solid #7144fc 10px; */
+  }
+  /* .Home_mobile{} */
+  /* .About_mobile{} */
+  /* .Services_mobile{} */
+  /* .Pricing_mobile{} */
+  .Contact_mobile {
+    /* color: #7144fc !important; */
+  }
+  .Mobile_Nav i {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+}
+
+li a:hover {
+  color: #7144fc !important;
+}
